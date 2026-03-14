@@ -23,13 +23,7 @@ Evaluation and reliability layer for a clinical AI entity extraction pipeline.
 pip install requests
 ```
 
-### 2. Set your OpenRouter API key
-
-```bash
-export OPENROUTER_API_KEY="sk-or-..."
-```
-
-### 3. Evaluate a single chart
+### 2. Evaluate a single chart
 
 ```bash
 python test.py path/to/chart.json output/chart.json
@@ -40,19 +34,6 @@ You can also pass it explicitly:
 
 ```bash
 python test.py path/to/chart.json output/chart.json --md path/to/chart.md
-```
-
-### 4. Evaluate all 30 charts
-
-```bash
-python run_all.py --data-dir workshop_test_data --output-dir output
-```
-
-### 5. Generate the report
-
-```bash
-python generate_report.py --output-dir output --report report.md
-```
 
 ---
 

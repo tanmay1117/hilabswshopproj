@@ -1,0 +1,32 @@
+{
+  "file_name": "463W14981_N991-678203_20241205.json",
+  "entity_type_error_rate": {
+    "MEDICINE": 0.0,
+    "PROBLEM": 0.0,
+    "PROCEDURE": 0.4,
+    "TEST": 0.4,
+    "VITAL_NAME": 0.0,
+    "IMMUNIZATION": 0.0,
+    "MEDICAL_DEVICE": 0.4,
+    "MENTAL_STATUS": 0.2,
+    "SDOH": 0.0,
+    "SOCIAL_HISTORY": 0.5
+  },
+  "assertion_error_rate": {
+    "POSITIVE": 0.0556,
+    "NEGATIVE": 0.3333,
+    "UNCERTAIN": 1.0
+  },
+  "temporality_error_rate": {
+    "CURRENT": 0.1481,
+    "CLINICAL_HISTORY": 0.0,
+    "UPCOMING": 0.2,
+    "UNCERTAIN": 0.0
+  },
+  "subject_error_rate": {
+    "PATIENT": 0.0,
+    "FAMILY_MEMBER": 0.0
+  },
+  "event_date_accuracy": 0.6122,
+  "attribute_completeness": 0.4299
+}

@@ -1,0 +1,32 @@
+{
+  "file_name": "712W12471_J721-133074_20241212.json",
+  "entity_type_error_rate": {
+    "MEDICINE": 0.2,
+    "PROBLEM": 0.0,
+    "PROCEDURE": 0.4,
+    "TEST": 0.0,
+    "VITAL_NAME": 0.0,
+    "IMMUNIZATION": 0.0,
+    "MEDICAL_DEVICE": 0.0,
+    "MENTAL_STATUS": 0.0,
+    "SDOH": 0.0,
+    "SOCIAL_HISTORY": 0.4
+  },
+  "assertion_error_rate": {
+    "POSITIVE": 0.0312,
+    "NEGATIVE": 0.3,
+    "UNCERTAIN": 0.0
+  },
+  "temporality_error_rate": {
+    "CURRENT": 0.0286,
+    "CLINICAL_HISTORY": 0.3333,
+    "UPCOMING": 0.0,
+    "UNCERTAIN": 0.0
+  },
+  "subject_error_rate": {
+    "PATIENT": 0.0455,
+    "FAMILY_MEMBER": 0.0
+  },
+  "event_date_accuracy": 1.0,
+  "attribute_completeness": 0.6523
+}
